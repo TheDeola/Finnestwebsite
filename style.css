@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 20px 250px 0 250px;
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+header, footer {
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
+.nav ul li {
+    margin-top: -68px;
+    padding: 25px;
+}
+.nav li a .order{
+    color: blue;
+}
+.nav li {
+    display: inline;
+    padding: 0 10px;
+    float: right;
+}
+.nav li a {
+    text-decoration: none;
+    color: grey;
+}
+.banner .left{
+    width: 60%;
+    height: 300px;
+    float: left;
+}
+.banner h1 {
+    font-size: 35px;
+}
+.banner .right {
+    width: 40%;
+    float: right;
+    background-color: rgb(242, 244, 250);
+    border: 1px solid rgb(242, 244, 250);
+}
+.banner button{
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: blue;
+    width: 30%;
+}
+.banner button a {
+    color: white;
+    text-decoration: none;
+}
+.bottom .top {
+    margin: 0 260px;
+}
+.bottom .top h2{
+    font-weight: 300px;
+    justify-self: center;
+}
+.bottom .top p{
+    justify-self: center;
+    margin: 0 20px 20px 20px;
+}
+.bottom .unlimited {
+   float: left;
+   width: 32%;
+   height: 300px;
+   padding: 30px;
+   border: 1px solid rgb(250, 250, 255);
+   border-radius: 20px;
+   background-color: rgb(250, 250, 255);
+}
+.bottom .manage{
+    float: left;
+    width: 32%;
+    height: 300px;
+    padding: 30px;
+    margin: 0 0 0 20px;
+    border: 1px solid rgb(250, 250, 255);
+    border-radius: 20px;
+    background-color: rgb(250, 250, 255);
+ }
+.bottom .control {
+    float: right;
+    width: 32%;
+    height: 300px;
+    padding: 30px;
+    border: 1px solid rgb(250, 250, 255);
+    border-radius: 20px;
+    background-color: rgb(250, 250, 255);
+ }
